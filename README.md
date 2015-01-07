@@ -14,16 +14,19 @@ Karma helper function to make reading JSON files easier
         ```
 
 2. Make sure your JSON is being served by Karma, Example:
-```
-files = [
-...
-{pattern: 'json/**/*.json', included: false},
-...
-]
-```
+
+        ```
+        files = [
+        ...
+        {pattern: 'json/**/*.json', included: false},
+        ...
+        ]
+        ```
 
 3. Use the `readJSON` function in your tests. Example:
-```
-var valid_respond = readJSON('json/foobar.json');
-$httpBackend.whenGET(/.*/).respond(valid_respond);
-```
+
+        ```
+        var valid_respond = readJSON('json/foobar.json');
+        $httpBackend.whenGET(/.*/).respond(valid_respond);
+        ```
+
