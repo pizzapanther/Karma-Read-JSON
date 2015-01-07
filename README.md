@@ -5,13 +5,11 @@ Karma helper function to make reading JSON files easier
 
 1. Put karma-read-json.js in your Karma files, Example:
 
-        ```
         files = [
         ...
         'bower_components/karma-read-json/karma-read-json.js',
         ...
         ]
-        ```
 
 2. Make sure your JSON is being served by Karma, Example:
 
