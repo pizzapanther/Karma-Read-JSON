@@ -11,6 +11,7 @@ files = [
 ...
 ]
 ```
+
 2. Make sure your JSON is being served by Karma, Example:
 ```
 files = [
@@ -19,6 +20,7 @@ files = [
 ...
 ]
 ```
+
 3. Use the `readJSON` function in your tests. Example:
 ```
 var valid_respond = readJSON('json/foobar.json');
