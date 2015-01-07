@@ -1,6 +1,10 @@
 # Karma-Read-JSON
 Karma helper function to make reading JSON files easier
 
+## Install
+
+`bower install karma-read-json`
+
 ## Usage
 
 1. Put karma-read-json.js in your Karma files, Example:
