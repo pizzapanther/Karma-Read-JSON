@@ -1,0 +1,22 @@
+{
+  "name": "karma-read-json",
+  "version": "1.0.0",
+  "homepage": "https://github.com/pizzapanther/Karma-Read-JSON",
+  "authors": [
+    "Paul Bailey <paul.m.bailey@gmail.com>"
+  ],
+  "description": "helper function for Karma to read JSON files easier",
+  "main": "karma-read-json.js",
+  "keywords": [
+    "karma",
+    "json"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
