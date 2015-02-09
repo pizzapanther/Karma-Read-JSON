@@ -13,13 +13,13 @@ function readJSON (url) {
       }
       
       else {
-        console.error('readJSON', xhr.statusText);
+        console.error('readJSON', url, xhr.statusText);
       }
     }
   };
   
   xhr.onerror = function (e) {
-    console.error('readJSON', xhr.statusText);
+    console.error('readJSON', url, xhr.statusText);
   };
   
   xhr.send(null);
