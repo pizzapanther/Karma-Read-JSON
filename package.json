@@ -1,0 +1,23 @@
+{
+  "name": "Karma-Read-JSON",
+  "version": "1.0.0",
+  "description": "helper function for Karma to read JSON files easier",
+  "main": "karma-read-json.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pizzapanther/Karma-Read-JSON.git"
+  },
+  "keywords": [
+    "karma",
+    "json"
+  ],
+  "author": "Paul Bailey <paul.m.bailey@gmail.com> (http://neutrondrive.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pizzapanther/Karma-Read-JSON/issues"
+  },
+  "homepage": "https://github.com/pizzapanther/Karma-Read-JSON"
+}
