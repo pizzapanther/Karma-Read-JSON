@@ -1,7 +1,5 @@
-exports.base = '/base/';
-
-exports.readJSON = function (url, base) {
-  url = exports.base + url;
+var readJSON = function (url) {
+  url = readJSON.base + url;
   
   var xhr = new XMLHttpRequest();
   var json = null;
@@ -25,3 +23,15 @@ exports.readJSON = function (url, base) {
   xhr.send(null);
   return json;
 };
+
+readJSON.base = '/base/';
+
+try {
+  if (exports) {
+    exports.readJSON = readJSON;
+  }
+}
+
+catch (error) {
+  //exports not available so not loaded by require
+}

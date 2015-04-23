@@ -1,6 +1,6 @@
 {
   "name": "karma-read-json",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "helper function for Karma to read JSON files easier",
   "main": "karma-read-json.js",
   "scripts": {
